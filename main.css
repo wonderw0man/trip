@@ -89,8 +89,38 @@ nav{
 .nav-link:hover {
     color: #BD00FF;
 }
-.navbar-collapse {
-    justify-content: flex-end;
+#off{
+    background-color: #270e2d;
+}
+#off .nav-item{
+    border: none;
+
+}
+#off .logo{
+    padding-bottom: 5%;
+    border-bottom: 1px solid white;
+}
+#off .nav-link:hover {
+    padding-left: 2%;
+    background-color: #BD00FF;
+    border-radius: 8px;
+    color: white;
+    width: 10rem;
+    height: 2rem;
+    border: 2px solid #BD00FF;
+    transition: var(--transition);
+}
+#off .info{
+    border-top: 1px solid white;
+    
+    margin-top: 2rem;
+}
+
+#off h3{
+    margin-top: 4%;
+    font-weight: 200;
+    color: rgb(169, 169, 169);
+    font-size: 1rem;
 }
 #dot .box {
     margin-top: 1rem;
