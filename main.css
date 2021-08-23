@@ -89,6 +89,9 @@ nav{
 .nav-link:hover {
     color: #BD00FF;
 }
+.navbar-collapse {
+    justify-content: flex-end;
+}
 #off{
     background-color: #270e2d;
 }
