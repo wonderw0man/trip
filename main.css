@@ -302,10 +302,6 @@ footer i {
       cursor: pointer;
 }
 #myBtn {
-    display: bottom; 
-    position: fixed; 
-    bottom: 20px; 
-    right: 30px; 
     z-index: 99; 
     border: none;
     border-radius: 50%; 
